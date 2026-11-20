@@ -97,16 +97,7 @@ public class UserEditorGroupsPanelLogic : BaseNetLogic
 
 
         //********************** controllo gruppi utente loggato in quel momento ********************************
-        //var loggedUser = Session.User;
-        //var userGroups = loggedUser.Refs.GetObjects(FTOptix.Core.ReferenceTypes.HasGroup, false);
-        
-        //List<string> listaGruppiUtenteAttivo = new List<string>();     
-        //foreach (var userGroup in userGroups)
-        //{            
-        //    listaGruppiUtenteAttivo.Add(userGroup.BrowseName);
-        //}
-        //*******************************************************************************************************
-
+       
         //creazione dizionario per gestire gruppi in maniera gerarchica
         Dictionary<string, int> groupLevels = new()
         {
